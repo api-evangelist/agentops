@@ -1,0 +1,159 @@
+aid: agentops
+url: https://raw.githubusercontent.com/api-evangelist/agentops/refs/heads/main/apis.yml
+name: AgentOps
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- AI Agents
+- Observability
+- Evaluation
+- Tracing
+- Python SDK
+- Open Source
+- Agent Frameworks
+description: AgentOps is an observability, evaluation, and debugging platform for AI agents. Its open-source Python SDK
+  (with TypeScript support for OpenAI Agents) instruments agent runs in two lines of code, capturing LLM calls, tool invocations,
+  costs, latencies, and multi-agent interactions. Sessions are visualized in a hosted dashboard at app.agentops.ai with
+  time-travel debugging, waterfall views, and replay. AgentOps offers native integrations with 400+ LLMs and frameworks
+  including CrewAI, AutoGen / AG2, LangChain, LangGraph, LlamaIndex, OpenAI Agents, Haystack, and Camel AI.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+- aid: agentops:agentops-python-sdk
+  name: AgentOps Python SDK
+  tags:
+  - SDK
+  - Python
+  - Tracing
+  - Instrumentation
+  humanURL: https://docs.agentops.ai/
+  properties:
+  - url: https://docs.agentops.ai/
+    type: Documentation
+  - url: https://github.com/AgentOps-AI/agentops
+    type: SourceCode
+  - url: https://pypi.org/project/agentops/
+    type: SDK
+  description: The AgentOps Python SDK is the primary entry point, installable via pip install agentops and initialized
+    with two lines of code. It auto-instruments supported agent frameworks and LLM providers, supports custom traces via
+    the @trace decorator, and ships events to the AgentOps backend or a self-hosted deployment.
+- aid: agentops:agentops-typescript-sdk
+  name: AgentOps TypeScript SDK
+  tags:
+  - SDK
+  - TypeScript
+  - JavaScript
+  - OpenAI Agents
+  humanURL: https://docs.agentops.ai/v2/integrations/openai-agents-js
+  properties:
+  - url: https://docs.agentops.ai/v2/integrations/openai-agents-js
+    type: Documentation
+  - url: https://github.com/AgentOps-AI/agentops-node
+    type: SourceCode
+  description: AgentOps' TypeScript SDK provides instrumentation for the OpenAI Agents SDK in Node.js applications, surfacing
+    the same traces and metrics as the Python SDK inside the AgentOps dashboard.
+- aid: agentops:agentops-dashboard
+  name: AgentOps Dashboard
+  tags:
+  - Dashboard
+  - Observability
+  - SaaS
+  - Replay
+  humanURL: https://app.agentops.ai/
+  properties:
+  - url: https://app.agentops.ai/
+    type: ApplicationURL
+  - url: https://docs.agentops.ai/v2/usage/dashboard
+    type: Documentation
+  description: The hosted dashboard at app.agentops.ai visualizes agent sessions with waterfall views, time-travel replay,
+    LLM cost tracking, and multi-agent interaction graphs. Supports session export and team collaboration features in paid
+    tiers.
+common:
+- type: Website
+  url: https://www.agentops.ai/
+- type: Documentation
+  url: https://docs.agentops.ai/
+- type: Blog
+  url: https://www.agentops.ai/blog
+- type: Pricing
+  url: https://www.agentops.ai/pricing
+- type: Login
+  url: https://app.agentops.ai/
+- type: GitHubOrganization
+  url: https://github.com/AgentOps-AI
+- type: GitHubRepository
+  url: https://github.com/AgentOps-AI/agentops
+- type: LinkedIn
+  url: https://www.linkedin.com/company/agentops-ai/
+- type: Discord
+  url: https://discord.gg/FagdcwwXRR
+- type: Courses
+  url: https://agentops.ai/courses
+- type: License
+  url: https://github.com/AgentOps-AI/agentops/blob/main/LICENSE
+- type: Features
+  data:
+  - name: Two-Line Instrumentation
+    description: Initialize observability with agentops.init() and automatic framework instrumentation.
+  - name: Session Replay
+    description: Time-travel debugging with full session and event replay in the dashboard.
+  - name: LLM Cost Tracking
+    description: Token counting and cost tracking across foundation model providers and agents.
+  - name: Multi-Agent Visualization
+    description: Visualize interactions between agents in CrewAI, AutoGen, LangGraph, and custom systems.
+  - name: Waterfall Traces
+    description: Time-based waterfall views of all events in a session.
+  - name: Custom Traces
+    description: Use the @trace decorator and OTel-aligned spans to instrument custom code paths.
+  - name: Self-Hosting
+    description: Self-hosted deployment available on Enterprise plans.
+  - name: SOC 2 / HIPAA
+    description: Enterprise compliance with SOC 2 and HIPAA available on the Enterprise tier.
+- type: UseCases
+  data:
+  - name: Agent Debugging
+    description: Inspect multi-step agent runs, tool calls, and intermediate reasoning to find failures.
+  - name: Cost Monitoring
+    description: Track token usage and cost per agent, framework, and provider.
+  - name: Agent Evaluation
+    description: Evaluate agent performance across sessions and compare versions.
+  - name: Production Observability
+    description: Monitor production agents with dashboards, alerts, and exports.
+  - name: Multi-Agent Systems
+    description: Visualize and debug coordination between agents in multi-agent frameworks.
+- type: Integrations
+  data:
+  - name: OpenAI
+    description: Native instrumentation for OpenAI Chat Completions and Responses APIs.
+  - name: OpenAI Agents SDK
+    description: First-class support for OpenAI Agents in Python and TypeScript.
+  - name: Anthropic
+    description: Instrumentation for Anthropic Claude models.
+  - name: CrewAI
+    description: Native CrewAI integration with multi-agent visualization.
+  - name: AG2 (AutoGen)
+    description: Native integration with AG2, formerly AutoGen.
+  - name: LangChain
+    description: Instrumentation for LangChain chains and agents.
+  - name: LangGraph
+    description: Trace and visualize LangGraph stateful agents.
+  - name: LlamaIndex
+    description: Trace LlamaIndex RAG and agent applications.
+  - name: Haystack
+    description: Instrumentation for Haystack pipelines.
+  - name: Camel AI
+    description: Native integration with Camel AI multi-agent system.
+  - name: Cohere
+    description: Instrumentation for Cohere model calls.
+  - name: LiteLLM
+    description: Capture calls routed through LiteLLM across providers.
+  - name: Mistral
+    description: Instrumentation for Mistral models.
+  - name: Google Generative AI
+    description: Instrumentation for Gemini and Vertex AI.
+  - name: xAI
+    description: Instrumentation for xAI Grok models.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
