@@ -154,6 +154,8 @@ common:
     description: Instrumentation for Gemini and Vertex AI.
   - name: xAI
     description: Instrumentation for xAI Grok models.
+- type: LLMsTxt
+  url: https://docs.agentops.ai/llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
