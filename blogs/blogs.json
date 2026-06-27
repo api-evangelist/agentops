@@ -3,13 +3,11 @@
   "feeds": [
     {
       "source": "https://www.agentops.ai/blog",
-      "feed_url": "https://www.agentops.ai/blog",
-      "title": "AgentOps Blog",
       "saved": 0,
-      "method": "none",
-      "note": "Feed paths (/feed/, /rss.xml, /index.xml, /feed.xml) return HTTP 500; HTML blog page is client-side rendered with no scrapable post links."
+      "error": "listing rendered no posts with determinable dates"
     }
   ],
-  "fetched": "2026-06-21T17:00:00Z",
-  "post_count": 0
+  "fetched": "2026-06-27T12:21:34Z",
+  "post_count": 0,
+  "agent_pulled": "2026-06-27"
 }

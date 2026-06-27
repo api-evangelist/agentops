@@ -34,7 +34,7 @@ apis:
   - url: https://github.com/AgentOps-AI/agentops
     type: SourceCode
   - url: https://pypi.org/project/agentops/
-    type: SDK
+    type: SDKs
   description: The AgentOps Python SDK is the primary entry point, installable via pip install agentops and initialized
     with two lines of code. It auto-instruments supported agent frameworks and LLM providers, supports custom traces via
     the @trace decorator, and ships events to the AgentOps backend or a self-hosted deployment.
@@ -154,7 +154,7 @@ common:
     description: Instrumentation for Gemini and Vertex AI.
   - name: xAI
     description: Instrumentation for xAI Grok models.
-- type: LLMsTxt
+- type: LlmsText
   url: https://docs.agentops.ai/llms.txt
 maintainers:
 - FN: Kin Lane
