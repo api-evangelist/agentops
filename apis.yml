@@ -70,6 +70,8 @@ apis:
     LLM cost tracking, and multi-agent interaction graphs. Supports session export and team collaboration features in paid
     tiers.
 common:
+- type: DomainSecurity
+  url: security/agentops-domain-security.yml
 - type: Website
   url: https://www.agentops.ai/
 - type: Documentation
