@@ -82,6 +82,14 @@ apis:
     LLM cost tracking, and multi-agent interaction graphs. Supports session export and team collaboration features in paid
     tiers.
 common:
+- type: IssueTracker
+  url: https://github.com/AgentOps-AI/agentops/issues
+- type: Releases
+  url: https://github.com/AgentOps-AI/agentops/releases
+- type: CodeOfConduct
+  url: https://github.com/AgentOps-AI/agentops/blob/main/.github/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/AgentOps-AI/agentops/blob/main/.github/CONTRIBUTING.md
 - type: DomainSecurity
   url: security/agentops-domain-security.yml
 - type: Website
