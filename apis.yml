@@ -30,7 +30,7 @@ description: AgentOps is an observability, evaluation, and debugging platform fo
   including CrewAI, AutoGen / AG2, LangChain, LangGraph, LlamaIndex, OpenAI Agents, Haystack, and Camel AI.
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: agentops:agentops-python-sdk
   name: AgentOps Python SDK
