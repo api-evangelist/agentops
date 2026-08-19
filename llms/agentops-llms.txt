@@ -1,0 +1,53 @@
+# AgentOps
+
+## Docs
+
+- [Introduction](https://docs.agentops.ai/v2/introduction.md): AgentOps is the developer favorite platform for testing, debugging, and deploying AI agents and LLM apps.
+- [Quickstart](https://docs.agentops.ai/v2/quickstart.md): Get started with AgentOps in minutes with just 2 lines of code for basic monitoring, and explore powerful decorators for custom tracing.
+- [Examples](https://docs.agentops.ai/v2/examples/examples.md): Examples of AgentOps with various integrations
+- [MCP Docs](https://docs.agentops.ai/v2/usage/mcp-docs.md): Chat with the AgentOps documentation directly from your IDE using the Mintlify MCP Docs Server.
+- [MCP Server](https://docs.agentops.ai/v2/usage/mcp-server.md): MCP server for accessing AgentOps trace and span data
+- [Core Concepts](https://docs.agentops.ai/v2/concepts/core-concepts.md): Understanding the fundamental concepts of AgentOps
+- [Decorators](https://docs.agentops.ai/v2/concepts/decorators.md): Use decorators to track activities in your agent system
+- [Traces](https://docs.agentops.ai/v2/concepts/traces.md): Effectively manage traces in your agent workflow
+- [Spans](https://docs.agentops.ai/v2/concepts/spans.md): Understanding the different types of spans in AgentOps
+- [Tags](https://docs.agentops.ai/v2/concepts/tags.md): Organize and filter your sessions with customizable tags
+- [AG2](https://docs.agentops.ai/v2/integrations/ag2.md): Track and analyze your AG2 agents with AgentOps
+- [Agno](https://docs.agentops.ai/v2/integrations/agno.md): Track your Agno agents, teams, and workflows with AgentOps
+- [Anthropic](https://docs.agentops.ai/v2/integrations/anthropic.md): Track and analyze your Anthropic API calls with AgentOps
+- [AutoGen](https://docs.agentops.ai/v2/integrations/autogen.md): Integrate AgentOps with Microsoft AutoGen for multi-agent workflow tracking
+- [CrewAI](https://docs.agentops.ai/v2/integrations/crewai.md): AgentOps and CrewAI teamed up to make monitoring Crew agents dead simple.
+- [Haystack](https://docs.agentops.ai/v2/integrations/haystack.md): Monitor your Haystack agents with AgentOps
+- [Google ADK](https://docs.agentops.ai/v2/integrations/google_adk.md): Track and analyze your Google Agent Development Kit (ADK) AI agents with AgentOps
+- [Google Generative AI](https://docs.agentops.ai/v2/integrations/google_generative_ai.md): Monitor and analyze your Google Gemini API calls with AgentOps
+- [LangChain](https://docs.agentops.ai/v2/integrations/langchain.md): Track your LangChain agents with AgentOps
+- [LangGraph](https://docs.agentops.ai/v2/integrations/langgraph.md): Track and analyze your LangGraph workflows with AgentOps
+- [LlamaIndex](https://docs.agentops.ai/v2/integrations/llamaindex.md): AgentOps works seamlessly with LlamaIndex, a framework for building context-augmented generative AI applications with LLMs.
+- [LiteLLM](https://docs.agentops.ai/v2/integrations/litellm.md): Track and analyze your LiteLLM calls across multiple providers with AgentOps
+- [Mem0](https://docs.agentops.ai/v2/integrations/mem0.md): Track and monitor Mem0 memory operations with AgentOps
+- [Memori](https://docs.agentops.ai/v2/integrations/memori.md): Track and monitor Memori memory operations with AgentOps
+- [OpenAI](https://docs.agentops.ai/v2/integrations/openai.md): Track and analyze your OpenAI API calls with AgentOps
+- [OpenAI Agents SDK](https://docs.agentops.ai/v2/integrations/openai_agents_python.md): AgentOps and OpenAI Agents SDK integration for powerful multi-agent workflow monitoring.
+- [OpenAI Agents JS](https://docs.agentops.ai/v2/integrations/openai_agents_js.md): AgentOps integration with the OpenAI Agents SDK for TypeScript/JavaScript.
+- [Smolagents](https://docs.agentops.ai/v2/integrations/smolagents.md): Track and analyze your Smolagents AI agents with AgentOps
+- [IBM Watsonx.ai](https://docs.agentops.ai/v2/integrations/ibm_watsonx_ai.md): Track and analyze your IBM Watsonx.ai API calls with AgentOps
+- [xAI (Grok)](https://docs.agentops.ai/v2/integrations/xai.md): Track and analyze your xAI Grok API calls with AgentOps
+- [Xpander](https://docs.agentops.ai/v2/integrations/xpander.md): Monitor and analyze your Xpander agent workflows with automatic AgentOps instrumentation
+- [Dashboard](https://docs.agentops.ai/v2/usage/dashboard-info.md): Visualize your AgentOps analysis.
+- [SDK Reference](https://docs.agentops.ai/v2/usage/sdk-reference.md): All functions and classes exposed in the top layer of the SDK
+- [TypeScript SDK](https://docs.agentops.ai/v2/usage/typescript-sdk.md): Get started with the AgentOps TypeScript SDK for Node.js applications
+- [Advanced Configuration](https://docs.agentops.ai/v2/usage/advanced-configuration.md)
+- [Context Managers](https://docs.agentops.ai/v2/usage/context-managers.md): Use AgentOps traces as Python context managers for automatic lifecycle management
+- [Tracking LLM Calls](https://docs.agentops.ai/v2/usage/tracking-llm-calls.md): Tracking LLM Calls using the AgentOps SDK
+- [Tracking Agents](https://docs.agentops.ai/v2/usage/tracking-agents.md): Associate operations with specific named agents
+- [Recording Operations](https://docs.agentops.ai/v2/usage/recording-operations.md): Track operations and LLM calls in your agent applications.
+- [Trace Decorator](https://docs.agentops.ai/v2/usage/trace-decorator.md): Create custom traces with the @trace decorator
+- [Track Endpoint Decorator](https://docs.agentops.ai/v2/usage/track-endpoint-decorator.md): HTTP endpoint tracing for Flask applications using the @track_endpoint decorator
+- [Manual Trace Control](https://docs.agentops.ai/v2/usage/manual-trace-control.md): Advanced trace management with start_trace and end_trace methods
+- [Public API](https://docs.agentops.ai/v2/usage/public-api.md): Read-only HTTP API for accessing AgentOps trace and span data
+- [Self-Hosting Overview](https://docs.agentops.ai/v2/self-hosting/overview.md): Complete guide to self-hosting AgentOps backend services and infrastructure
+- [Backend Setup Guide](https://docs.agentops.ai/v2/self-hosting/backend-setup.md): Complete guide for setting up and running AgentOps backend services
+- [Docker Guide](https://docs.agentops.ai/v2/self-hosting/docker-guide.md): Complete guide for running AgentOps with Docker and Docker Compose
+- [Native Development Guide](https://docs.agentops.ai/v2/self-hosting/native-development.md): Complete guide for running AgentOps backend services natively without Docker
+- [Just Commands Reference](https://docs.agentops.ai/v2/self-hosting/just-commands.md): Complete reference for all available Just commands in AgentOps development
+- [Host Environment](https://docs.agentops.ai/v2/concepts/host-env.md): Automatically collected information about the environment where your agent runs
