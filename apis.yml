@@ -21,6 +21,14 @@ tags:
 - Evaluation
 - Tracing
 - Python SDK
+- Open-Source
+- Agent Frameworks
+tags_raw:
+- AI Agents
+- Observability
+- Evaluation
+- Tracing
+- Python SDK
 - Open Source
 - Agent Frameworks
 description: AgentOps is an observability, evaluation, and debugging platform for AI agents. Its open-source Python SDK
@@ -68,6 +76,11 @@ apis:
 - aid: agentops:agentops-dashboard
   name: AgentOps Dashboard
   tags:
+  - Dashboard
+  - Observability
+  - Software-as-a-Service
+  - Replay
+  tags_raw:
   - Dashboard
   - Observability
   - SaaS
