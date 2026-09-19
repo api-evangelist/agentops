@@ -27,6 +27,10 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agentops.png
+x-docs-platform: mintlify
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-17
+x-docs-hosting: vercel
 tags:
 - AI Agents
 - Observability
@@ -88,7 +92,7 @@ apis:
 - aid: agentops:agentops-dashboard
   name: AgentOps Dashboard
   tags:
-  - Dashboard
+  - Dashboards
   - Observability
   - Software-as-a-Service
   - Replay
