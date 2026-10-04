@@ -3,16 +3,21 @@ url: https://raw.githubusercontent.com/api-evangelist/agentops/refs/heads/main/a
 name: AgentOps
 type: Index
 deliveryModel:
-  model: unknown
-  open_source: unknown
+  model: open-core
+  license: MIT
+  license_evidence:
+    repo: agentops-ai/agentops
+    spdx: MIT
+    stars: 5842
+  open_source: true
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
-  confidence: low
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: medium
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: free
@@ -37,7 +42,7 @@ tags:
 - Evaluation
 - Tracing
 - Python SDK
-- Open-Source
+- Open Source
 - Agent Frameworks
 tags_raw:
 - AI Agents
@@ -47,6 +52,7 @@ tags_raw:
 - Python SDK
 - Open Source
 - Agent Frameworks
+- Open-Source
 description: AgentOps is an observability, evaluation, and debugging platform for AI agents. Its open-source Python SDK
   (with TypeScript support for OpenAI Agents) instruments agent runs in two lines of code, capturing LLM calls, tool invocations,
   costs, latencies, and multi-agent interactions. Sessions are visualized in a hosted dashboard at app.agentops.ai with
