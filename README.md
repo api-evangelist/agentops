@@ -1,4 +1,4 @@
-# agentops
+# AgentOps
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AgentOps — observability and evals for AI agents
+AgentOps is an observability, evaluation, and debugging platform for AI agents. Its open-source Python SDK (with TypeScript support for OpenAI Agents) instruments agent runs in two lines of code, capturing LLM calls, tool invocations, costs, latencies, and multi-agent interactions. Sessions are visualized in a hosted dashboard at app.agentops.ai with time-travel debugging, waterfall views, and replay. AgentOps offers native integrations with 400+ LLMs and frameworks including CrewAI, AutoGen / AG2, LangChain, LangGraph, LlamaIndex, OpenAI Agents, Haystack, and Camel AI.
+
+**Areas:** AI Agents · Observability · Evaluation · Tracing · Python SDK · Open Source · Agent Frameworks
+
+## AgentOps on APIs.io
+
+Everything profiled for AgentOps is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentops/](https://apis.io/providers/agentops/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [AgentOps Python SDK](https://apis.io/apis/agentops/agentops-python-sdk/) — The AgentOps Python SDK is the primary entry point, installable via pip install agentops and initialized with two lines of code. It auto-instruments…
+- [AgentOps TypeScript SDK](https://apis.io/apis/agentops/agentops-typescript-sdk/) — AgentOps' TypeScript SDK provides instrumentation for the OpenAI Agents SDK in Node.js applications, surfacing the same traces and metrics as the Python SDK…
+- [AgentOps Dashboard](https://apis.io/apis/agentops/agentops-dashboard/) — The hosted dashboard at app.agentops.ai visualizes agent sessions with waterfall views, time-travel replay, LLM cost tracking, and multi-agent interaction…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [Moved to /providers/agentops/](https://apis.io/servers/agentops/agentops/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentops Domain Security](https://apis.io/security/agentops/agentops-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentops Plans Pricing](https://apis.io/plans/agentops/agentops-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentops Rate Limits](https://apis.io/rate-limits/agentops/agentops-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Agentops Finops](https://apis.io/finops/agentops/agentops-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.agentops.ai/)
+- [Documentation](https://docs.agentops.ai/)
+- [Pricing](https://www.agentops.ai/pricing)
+- [Blog](https://www.agentops.ai/blog)
+- [GitHub](https://github.com/AgentOps-AI)
+
+## API Evangelist rating
+
+**Kin Score 20.8** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 11.8 |
+
+**Agent readiness 9.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentops/](https://apis.io/providers/agentops/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentOps: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentops/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
